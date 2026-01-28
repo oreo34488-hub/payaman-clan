@@ -123,12 +123,3 @@ export default function RootLayout({ children }) {
 // 9️⃣ Deployment Steps to Vercel
 // =====================
 /*
-1. Push this project to your GitHub repository.
-2. Go to https://vercel.com and sign in.
-3. Click “New Project” → Import your GitHub repo.
-4. Add environment variables in Vercel (from .env.example).
-5. Click “Deploy”.
-6. Your website will get a live URL like https://your-repo-name.vercel.app
-*/
-
-// ✅ This is the full copy-paste-ready structure for GitHub & Vercel deployment.
