@@ -118,6 +118,27 @@ export default function RootLayout({ children }) {
 // 8️⃣ app/page.tsx
 // =====================
 // (Use the Dashboard code already in this textdoc)
+// =====================
+// 2️⃣ Folder Structure Fix
+// =====================
+/*
+Next.js 14 App Router requires the 'app' folder and at least a root page:
+
+payaman-clan/
+├─ app/
+│  ├─ layout.tsx
+│  ├─ page.tsx    <-- Root route now exists for '/'
+│  ├─ dashboard/  <-- Optional subfolder for other pages
+│  │  └─ page.tsx
+├─ lib/
+│  └─ firebase.ts
+├─ package.json
+├─ tailwind.config.js
+├─ postcss.config.js
+├─ .env.example
+├─ .gitignore
+*/
+
 
 // =====================
 // 9️⃣ Deployment Steps to Vercel
